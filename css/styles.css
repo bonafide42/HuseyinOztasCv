@@ -1,0 +1,82 @@
+hr {
+  border-style: solid;
+  border-left-style: none;
+}
+
+body {
+  background: #F1F1F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+
+
+}
+
+.profileText{
+  position: relative;
+  display: flex;
+  float: right;
+  padding-bottom: 20px;
+  margin-right: 5px;
+
+}
+
+.profileText .imgBx {
+  position: relative;
+  margin-right: 30px;
+
+}
+
+.profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+
+}
+.container .left-side{
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+
+.container .right-side {
+  position: relative;
+  background: white;
+  padding: 40px;
+
+
+}
+
+.right-side .contacts {
+  text-align: right;
+  color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.orta {
+  position: relative;
+  left: 25px;
+}
+
+.right-side .contacts {
+  position: relative;
+  height:267px;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.7);
+}
